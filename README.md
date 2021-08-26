@@ -3,7 +3,7 @@
 
 ## Building from source
 1. Install [.NET Core](https://docs.microsoft.com/en-us/dotnet/core/install/) (developed using SDK 5.0.400)
-2. Build the project (`dotnet build -v`) (see [here](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build))
+2. Build the project (`dotnet build -v d`) (see [here](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-build))
 
 ## Usage
 - `maji files`: Merge one or more files into the first file mentioned.
