@@ -7,6 +7,7 @@
 
 ## Usage
 - `maji files`: Merge one or more files into the first file mentioned.
+  - **Warning:** You should back-up both files prior to ensure no data is lost in the event that the merge isn't how you expected it to be.
   - Example: `maji files original.json patch1.json patch2.json`
 - `maji strings`: Merge one or more strings of JSON into the first string.
   - Example: `maji strings {"1": "yay"} {"2": "yayuh"}`
