@@ -57,7 +57,8 @@ namespace Maji
             // Pass merged to file
             string name = "merged-" + Path.GetFileName(args[1]);
             string dir = Path.GetFullPath(args[1]);
-            string newpath = String.Format("{0}merged-{1}", dir, name);
+            dir = Path.GetDirectoryName(dir);
+            string newpath = Path.Combine(dir, name);
             File.WriteAllText(newpath, jsonResp.ToString());
         }
 
