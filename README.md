@@ -3,7 +3,7 @@
 
 ## Building from source
 1. Install [Visual Studio 2019](https://visualstudio.microsoft.com/) (developed using v16.11.2)
-2. Ensure you install the `.NET desktop development` workload, the `.NET Framework 4.7.2 targeting pack` and SDK, and the `NuGet package manager`.
+2. Ensure you install the `.NET desktop development` workload, the `.NET Core 5.0` and SDK, and the `NuGet package manager`.
 3. 
 
 ## Usage
